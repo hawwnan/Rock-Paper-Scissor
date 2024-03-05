@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <title>Rock-Paper-Scissor</title>
+</head>
+<body>
+    <div class="msg-container hidden">
+        <p class="msg">Game Over !!!</p>
+        <button class="new-btn">New Game</button>
+    </div>
+    <main>
+        <h1 class="cutive-mono-regular">Rock Paper Scissor</h1>
+        <div class="container">
+            <div class="game">
+                <div class="options rock cutive-mono-regular"><img src="./images/rock.png"/>Rock</div>
+                <div class="options paper cutive-mono-regular"><img src="./images/paper.png"/>Paper</div>
+                <div class="options scissor cutive-mono-regular"><img src="./images/scissor.png"/>Scissor</div>
+            </div>
+        </div>
+    </main>
+     <div class="win-count">
+        <div class="human-count cutive-mono-regular">
+            Human : 0
+        </div>
+        <div class="comp-count cutive-mono-regular">
+            Computer : 0
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
